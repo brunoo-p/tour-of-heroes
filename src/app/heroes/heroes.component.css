@@ -17,14 +17,14 @@
   transition: .3s;
 }
 .heroes li:hover {
-  color: #2c3a41;
-  background: #e6e6e6;
-  left: .1em;
+  background: #486979;
+  color: #e6e6e6;
+  left: .6em;
 }
 .heroes li.selected {
   background: #505050;
   color: white;
-  
+  left: .6em;
 }
 .heroes li.selected:hover {
   background: #505050;

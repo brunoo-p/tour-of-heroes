@@ -1,0 +1,22 @@
+.container {
+  transition: .3s;
+}
+
+h2 {
+  color: #A80000;
+  font-weight: lighter;
+}
+
+.clearButton {
+  color: #333;
+  background-color: #eee;
+  margin-bottom: 12px;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.clearButton:hover {
+  color: white;
+  background: #f86e6e;
+}
