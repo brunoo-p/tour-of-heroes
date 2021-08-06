@@ -1,38 +1,42 @@
 .heroes {
-  margin: 00 2em 0;
+  margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
 }
 
 .heroes li {
+
   cursor: pointer;
   position: relative;
-  left: 0;
-  background: #EEE;
+}
+.heroes li:hover {
+  background: #8cb9cfa2;
+  border-radius: 4px;
+  color: #e6e6e6;
+  transform: translateX(6px);
+  transition: .5s;
+}
+.heroes a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
-  border-radius: 5px;
-  transition: .3s;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  transition: .5s;
 }
-.heroes li:hover {
-  background: #486979;
-  color: #e6e6e6;
-  left: .6em;
-}
-.heroes li.selected {
+.heroes a:active {
   background: #505050;
   color: white;
   left: .6em;
 }
-.heroes li.selected:hover {
+.heroes a:hover {
   background: #505050;
-  color: white;
-}
-.heroes li.selected:active{
-  background: black;
-  color: white;
+  color: #fff;
 }
 .heroes .badge {
   display: inline-block;
@@ -47,7 +51,4 @@
   height: 1.8em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
-}
-input {
-  padding: .5em;
 }
